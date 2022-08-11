@@ -58,7 +58,7 @@ button:active {
     color: #eeeeee;
 }
 
-/* 
+/*
 
 NAV
 
@@ -105,7 +105,7 @@ nav {
     transition: all 300ms ease;
 }
 
-/* 
+/*
 
 HEADER
 
@@ -152,12 +152,12 @@ HEADER
     max-width: 100%;
 }
 
-.header__email { 
+.header__email {
     padding: 4px;
     border: 2px solid #eeeeee;
     border-radius: 40px;
     display: flex;
-   
+
 }
 
 textarea:focus, input:focus{
@@ -193,6 +193,12 @@ textarea:focus, input:focus{
 FEATURES
 
 */
+
+.features__container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 .features__intro {
     display: flex;
@@ -250,3 +256,262 @@ FEATURES
     padding: 1.25rem;
     height: 66px;
 }
+
+/*
+
+QUALITY
+
+*/
+
+.quality {
+    padding-top: 96px;
+}
+
+.quality__container {
+    display: flex;
+}
+
+.quality__main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quality__para {
+    color: #7c8ba1;
+    line-height: 1.5;
+    font-size: 18px;
+    padding: 12px 0 36px 0;
+}
+
+.quality__img--wrapper {
+    width: 50%;
+}
+
+.quality__img {
+    width: 100%;
+}
+
+.quality__pretitle {
+    font-size: 16px;
+}
+
+.quality__title {
+    font-size: 48px;
+    padding: 24px 0;
+    color: #243e63;
+}
+
+/*
+
+STEPS
+
+*/
+
+.steps {
+    padding: 96px 0;
+}
+
+.steps__pretitle {
+    font-size: 16px;
+}
+
+.steps__title {
+    font-size: 48px;
+    padding: 24px 0;
+    color: #243e63;
+}
+
+.steps__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps__main {
+    padding-left: 36px;
+}
+
+.steps__img--wrapper {
+    width: 50%;
+}
+
+.steps__img {
+    width: 100%;
+}
+
+.steps__item {
+    margin-top: 24px;
+    padding-left: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps__description {
+    padding-left: 24px;
+    max-width: 360px;
+}
+
+.steps__item--title {
+    color: #243e63;
+    font-size: 20px;
+}
+
+.steps__item--para {
+    color: #718096;
+    margin-top: 12px;
+}
+
+.steps__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/*
+
+VALUES
+
+*/
+
+.value {
+    padding: 96px 0;
+}
+
+.value__pretitle {
+    font-size: 16px;
+}
+
+.value__title {
+    font-size: 48px;
+    padding: 24px 0;
+    color: #243e63;
+}
+
+.value__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value__image--wrapper {
+    width: 50%;
+}
+
+.value__img {
+    width: 100%;
+}
+
+.value__main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.value__reasons {
+    margin-top: 32px;
+    display: flex;
+}
+
+.value__reason--2 {
+    margin-left: 32px;
+}
+
+.value__reasons--title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.value__icon--wrapper1 {
+    background-color: #9ae6b4;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.value__icon--wrapper2 {
+    background-color: #feb2b2;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.reason__title {
+    margin-left: 12px;
+    color: #243e63;
+    font-size: 20px;
+
+}
+
+.value__reasons--para {
+    color: #718096;
+    font-size: 16px;
+}
+
+.reason__btn {
+    margin-top: 16px;
+}
+
+.value__para {
+    color: #7c8ba1;
+    font-size: 18px;
+}
+
+/* 
+
+PRICING
+
+*/
+
+.pricing {
+    padding: 96px 0;
+}
+
+.pricing__pretitle {
+    font-size: 16px;
+}
+
+.pricing__title {
+    font-size: 48px;
+    padding: 24px 0;
+    color: #243e63;
+}
+
+.pricing__para {
+    color: #7c8ba1;
+    font-size: 18px;
+    text-align: center;
+}
+
+.pricing__intro {
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__plans--list {
+    display: flex;
+    flex-direction: row;
+}
+
+.pricing__plan--personal {
+    border: 2px solid ;
+    width: calc(100 / 3);
+}
+
+/* .pricing__plan--business {
+    border: 2px solid ;
+    width: calc(100 / 3);
+} */
